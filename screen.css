@@ -13,7 +13,9 @@ main{
 }
 
 .masthead{
-    background: no-repeat / bottom / cover url('Images/HelloWorldMac.jpg');
+    background-image: url('Images/HelloWorldMac.jpg');
+    background-size: cover;
+    background-position: bottom;
     height: 250px;
     border-radius: 20px;
 }
